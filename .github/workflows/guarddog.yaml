@@ -16,6 +16,6 @@ jobs:
 
         - name: Install GuardDog
           run: |
-            pip install .
+            pip install guarddog
         - name: Run GuardDog against a remote package
           run: guarddog scan requests
